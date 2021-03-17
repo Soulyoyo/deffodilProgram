@@ -1,10 +1,11 @@
-let arr=[]
-for (let i = 1; i < 10; i++) {
-    for (let j = 1; j < 10; j++) {
+for (let i = 100; i < 999; i++) {
+    for (let j = 100; j < 999; j++) {
         // console.log(`${i}*${j}=${i*j}`);
-        arr.push(i*j);
-        
+        num=String(i*j);
+        reversenum=(num.split("").reverse().join(""));
+        if(num===reversenum){
+            console.log(`${i}x${j}=${num} and its reverse num is ${reversenum}`);
+        }
     }
     
 }
-console.log(arr);
