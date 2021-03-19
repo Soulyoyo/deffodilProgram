@@ -4,7 +4,7 @@ for (let i = 2; i < 150000; i++) {
         if (i % j == 0) {
             if (i % j == j % i) {
                 arr.push(i);
-                console.log(i);
+                // console.log(i);
             }
             break;
         }
