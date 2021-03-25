@@ -165,7 +165,7 @@ for (let i = 0; i < n; i++) {
     console.log("\n");
 }*/
 
-//13.
+//13.Print Star Pattern - 4
 /*n=5;
 for (let i = 0; i < n; i++) {
     for(let j=0;j<n;j++){
@@ -179,7 +179,7 @@ for (let i = 0; i < n; i++) {
     document.write("<br>");
 }*/
 
-//14.
+//14. Print Number Pattern - 1
 /*n=5;
 for (let i = 0; i < n; i++) {
     for(let j=0;j<n;j++){
